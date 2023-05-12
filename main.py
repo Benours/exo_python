@@ -52,7 +52,7 @@ liste2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 somme = sum([i for i in liste2])
 print(somme)'''
 
-x = {"a", "b", "c", "d"}
+'''x = {"a", "b", "c", "d"}
 y = {"s", "b", "d"}
 
 print(x, y)
@@ -68,4 +68,24 @@ print(x >= y)
 print(x < y)
 print(x > y)
 print(x == y)
-print(x != y)
+print(x != y)'''
+
+
+'''import classes as mc
+instanceMC = mc.MaClasse()
+instanceMC.affiche()
+
+instanceV2 = mc.Vecteur2(1, 2)
+instanceV2.affiche()
+
+instanceV2 = mc.Vecteur2()
+instanceV2.affiche()'''
+
+
+import coo
+instanceR = coo.Rectangle(2, 3)
+instanceR.affiche()
+print(instanceR.aire())
+instanceC = coo.Carre(2)
+instanceC.affiche()
+print(instanceC.aire())
